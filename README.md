@@ -7,7 +7,7 @@ This repository demonstrates the training of a GoogLeNet model on the MNIST data
 ## GoogLeNet Architecture
 
 GoogLeNet, also known as Inception v1, is a convolutional neural network architecture that uses inception modules to capture multi-scale features efficiently. This implementation uses the standard GoogLeNet variant.
-![alt text](Googlent.png)
+![alt text](images/Googlenet.png)
 
 ---
 
@@ -50,7 +50,7 @@ The dataset is split as follows:
 
 ### 6. Train the Model
 
-The model is trained for 20 epochs using the following key steps:
+The model is trained for 10 epochs using the following key steps:
 
 - The training set is passed through the model to compute predictions.
 - The loss is calculated using CrossEntropyLoss.
@@ -68,13 +68,13 @@ The model is trained for 20 epochs using the following key steps:
 
 Plots showing the training and validation loss over epochs:
 
-![Loss vs Epochs](output.png)
+![Loss vs Epochs](images/output.png)
 
 ### Confusion Matrix
 
 A heatmap of the confusion matrix shows the model's performance across all classes:
 
-![Confusion Matrix](matrix.png)
+![Confusion Matrix](images/matrix.png)
 
 ---
 
